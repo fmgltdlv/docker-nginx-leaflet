@@ -43,7 +43,7 @@ cat <<HERE >/usr/share/nginx/html/index.html
   <script src="autosize.js"></script>
   <script>
     Autosize.enable();
-    var map = L.map('map').setView([51.05, -114.05], 10);
+    var map = L.map('map').setView([36.11, -115.18], 10);
 
     L.tileLayer('${TILESERVER}', {
       attribution: '${ATTRIBUTION}'
