@@ -7,7 +7,7 @@ if [ -z "$TILESERVER" ]; then
 fi
 
 if [ -z "$ATTRIBUTION" ]; then
-  ATTRIBUTION="&copy; <a href=\"http://osm.org/copyright\">OpenStreetMap</a> contributors"
+  ATTRIBUTION="&copy; LVGIS contributors"
 fi
 
 echo "using Tile Server: $TILESERVER"
