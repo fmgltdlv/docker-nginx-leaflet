@@ -3,7 +3,7 @@
 set -e
 
 if [ -z "$TILESERVER" ]; then
-  TILESERVER="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
+  TILESERVER="https://mt0.google.com/vt/lyrs=y&x=10&y=20&z=5"
 fi
 
 if [ -z "$ATTRIBUTION" ]; then
